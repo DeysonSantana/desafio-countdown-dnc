@@ -1,0 +1,19 @@
+body{
+    background-color: #011627;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    display: grid;
+    grid-auto-flow: column; /* Faz o alinhamento autômático do grid das colunas*/
+    grid-auto-columns: 33vw;
+    color: #ececec;
+}
+
+.timer{
+    color: #ececec;
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 20px;
+}
